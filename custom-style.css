@@ -109,12 +109,12 @@ select {
 }
 
 .villa-wrap {
-    height: 100% !important;
+    height: 90% !important;
 }
 
 
 .total-price-villa-block {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,27 +124,32 @@ select {
     /*padding: 10px 10px 0 10px;*/
     margin-bottom: 5px;
     
-    border-top: 1px solid #d9d9d9;
+    
     /* border-radius: 5px; */
 }
 
 .total-price-text-block {
     display: flex;
-    width: 100%;
+    width: 50%;
+    /* width: 100%; */
+    flex-direction: column;
     justify-content: space-between;
     align-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     /* border-bottom: #a7aab1 solid 1px; */
     padding-bottom: 0px;
+    border-left: 1px solid #d9d9d9;
 }
 
 .total-price-text {
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: -5px;
 }
 
 .total-price-value {
-    font-size: 3em;
+    font-size: 3.4em;
+    /* color:#00758f; */
     font-weight: bold;
 }
 
@@ -152,21 +157,34 @@ select {
     margin-top: 5px;
 }
 
+.guest-info-block {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.top-price-info {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .select {
 
   background: transparent;
   background-image: url("data:image/svg+xml;utf8,<svg fill='DarkCyan' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
   background-repeat: no-repeat;
-  background-position-x: 60%;
+  background-position-x: 80%;
   background-position-y: 2px;
   /* border: 1px solid #dfdfdf; */
   
   /* border-radius: 2px; */
   margin-right: 10rem;
   /* padding: 10px; */
-    width: auto;
+    width: 100%;
   padding-right: 2rem;
-  margin-top: -12px;
+  /* margin-top: 12px; */
 
   }
 
@@ -178,8 +196,11 @@ select {
 
 .nights-text {
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .secure-info {
-    /* border-top: 1px solid #d9d9d9; */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 }
