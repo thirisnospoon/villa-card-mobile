@@ -196,11 +196,12 @@ select {
 
 .nights-text {
     margin-top: 5px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .secure-info {
    display: flex;
    justify-content: center;
    flex-direction: column;
+   align-items: center;
 }
